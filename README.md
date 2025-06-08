@@ -1,6 +1,6 @@
 # Golang Social App Backend
 
-A Simple Monolithic social blog API application built with Golang 
+A simple monolithic social blog API application built with Golang.
 
 ## Tech Stack Used
 
@@ -12,9 +12,9 @@ A Simple Monolithic social blog API application built with Golang
 
 ## Project Structure
 
-I'm using simple layered architecture in this project with details in below:
+This project uses a simple layered architecture. The details are as follows:
 
-- Infrastructure code / Delivery code related is located in the `cmd/api`.
-- Internal code such as DB connection, env configuration, data store layer is located inside `internal` directory.
+- Application layer / Delivery-related code is located in the `cmd/api` directory.
+- Domain and Infrastructure layers are located inside the `internal` directory.
 
-&copy;  caturandi-labs 2025 - MIT License
+&copy; by caturandi-labs 2025 - MIT License
